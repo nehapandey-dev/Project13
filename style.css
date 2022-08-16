@@ -39,7 +39,8 @@ li:hover {
     bottom: 70px;
     width: 100px;
 }
-button:hover{
+
+button:hover {
     background-color: black;
 }
 
@@ -140,7 +141,6 @@ p {
 }
 
 .box p {
-    /* font-size: 10px; */
     position: absolute;
     margin-top: 50px;
     width: 150px;
@@ -187,4 +187,287 @@ p {
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 50%;
+}
+
+@media screen and (min-width:400px) and (max-width:700px) {
+    .nav li {
+        display: none;
+
+    }
+
+    .Logo {
+        position: absolute;
+        top: 5%;
+        left: 10%;
+    }
+
+    .btn button {
+        position: relative;
+        left: 120px;
+        right: 10%;
+        background-color: #35BDD0;
+        color: #fff;
+        border-style: none;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        text-align: center;
+        width: 100px;
+
+    }
+
+    button:hover {
+        background-color: black;
+    }
+
+    .heading {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: left;
+        justify-items: center;
+        width: 500px;
+    }
+
+    .part1 {
+        position: relative;
+        bottom: 30px;
+    }
+
+    .head-img img {
+        width: 300px;
+        position: absolute;
+        bottom: 70px;
+    }
+
+    .heading h1 {
+        font-size: 28px;
+        line-height: 30px;
+    }
+
+    header {
+        background-color: rgb(129, 52, 217);
+        color: #ffffff;
+    }
+
+    .part-2 {
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 80px;
+        gap: 10px;
+    }
+
+    .mid-img img {
+        width: 400px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .arrow-1 {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        position: relative;
+        right: 30%;
+    }
+
+    .arrow-2 {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        position: relative;
+        right: 30%;
+    }
+
+    .arrow-3 {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        position: relative;
+        right: 35%;
+    }
+
+    .head2 {
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .decription-1 {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 30px;
+        gap: 20px;
+
+    }
+
+    .part-3 {
+        padding-left: 60px;
+        padding-right: 10px;
+    }
+
+    .section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 200px;
+        justify-content: space-evenly;
+        padding-left: 10px;
+        padding-right: 10px;
+        background: #fff;
+        box-shadow: 3px 3px 4px rgba(128, 128, 128, 0.852);
+        border-radius: 20px;
+    }
+
+    .box {
+        display: flex;
+        text-align: center;
+        border-radius: 18px;
+        width: 200px;
+        height: 100px;
+        padding-left: 20px;
+    }
+
+    .box p {
+        position: absolute;
+        margin-top: 50px;
+        width: 150px;
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width:700px) and (max-width:1000px) {
+
+    .nav ul,
+    .btn {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        justify-content: center;
+        gap: 30px;
+        padding-top: 30px;
+        font-size: 12px;
+    }
+
+    li:hover {
+        content: "";
+        color: #35BDD0;
+        text-decoration: underline red;
+    }
+
+    .Logo {
+        position: absolute;
+        top: 5%;
+        left: 5%;
+    }
+
+    .btn button {
+        background-color: #35BDD0;
+        color: #fff;
+        border-style: none;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        text-align: center;
+        position: relative;
+        left: 200px;
+        bottom: 70px;
+        width: 100px;
+    }
+
+    button:hover {
+        background-color: black;
+    }
+
+    .head-img img {
+        width: 380px;
+        position: relative;
+
+    }
+
+    .heading {
+        display: flex;
+        text-align: left;
+        justify-items: center;
+        padding-left: 120px;
+        gap: 40px;
+        position: relative;
+        right: 80px;
+        width: 100vw;
+    }
+
+    .heading h1 {
+        font-size: 35px;
+        line-height: 50px;
+
+    }
+
+    header {
+        background-color: rgb(129, 52, 217);
+        color: #ffffff
+    }
+
+    .part-2 {
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 30px;
+        padding-left: 70px;
+        padding-right: 10px;
+        gap: 30px;
+    }
+
+    .head2 {
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .decription-1 {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 30px;
+        gap: 20px;
+
+    }
+
+    .part-3 {
+        padding-left: 60px;
+        padding-right: 10px;
+    }
+
+    .section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        height: 200px;
+        justify-content: space-evenly;
+        padding-left: 10px;
+        padding-right: 10px;
+        background: #fff;
+        box-shadow: 3px 3px 4px rgba(128, 128, 128, 0.852);
+        border-radius: 20px;
+    }
+
+    .box {
+        display: flex;
+        text-align: center;
+        border-radius: 18px;
+        width: 200px;
+        height: 100px;
+        padding-left: 20px;
+    }
+
+    .box p {
+        position: absolute;
+        margin-top: 50px;
+        width: 150px;
+        text-align: center;
+    }
+
 }
